@@ -1,0 +1,380 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	overflow-x: hidden;
+}
+.arnab1{
+	width: 350px;
+	height: 350px;
+	border-radius: 200px;
+	border-style: solid;
+	border-color: ghostwhite;
+	box-shadow: 10px 10px 20px 20px deeppink;
+	transition: all 0.2s;
+}
+.nav,.nav ul,.nav ul li{
+	width: 100%;
+	transition: all 0.2s;
+}
+.nav ul,.nav ul li{
+	float: left;
+}
+.nav ul li{
+	background-color:deeppink;
+	text-align: center;
+	border-right: 1px solid rebeccapurple;
+}
+.nav ul li{
+	text-decoration-skip-ink: none;
+	color: rebeccapurple;
+	line-height: 50px;
+	border-radius:10px;
+	
+}
+.nav ul li:hover{
+	background-color: #00FFFF;
+	color: #333;
+	transform: scale(1.05);
+}
+.nav ul{
+	list-style-type: none;
+	display: flex;
+}
+.web{
+	font-style: oblique;
+	text-shadow: 6px 8px 6px white;
+}
+.web:hover{
+	width: 400px;
+	padding-left:550px ;
+	background-color: rgba(0, 0, 0, 0.5);
+	color:#333 ;*/
+}
+.arnab1:hover{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(100, 100, 100, 0.5);
+	color:#333 ;
+	transform: scale(1.10);
+}
+.viewport{
+	width: 42%;
+	height: 120px;
+	padding-left: 20px;
+	box-shadow: 6px 6px 10px 10px yellowgreen;
+	border-radius: 15px;
+	transition: all 0.2s;
+	text-align: center;
+}
+.arc{
+	width: 100px;
+	padding-left: 43%;
+	text-shadow: 6px 8px 6px white;
+}
+.viewport:hover{
+	background-color:deeppink;
+	color:#333 ;
+	transform: scale(1.05);
+}
+.hs{
+	width: 42%;
+	height: 120px;
+	box-shadow: 6px 6px 10px 10px yellowgreen;
+	border-radius: 15px;
+	float: right;
+	transition: all 0.2s;
+	text-align: center;
+
+}
+.viewport,.hs{
+	display: inline-flex;
+}
+.hs:hover{
+	background-color: darkseagreen;
+	color: #000;
+	transform: scale(1.05);
+}
+.var{
+	width: 42%;
+	height: 120px;
+	box-shadow: 6px 6px 10px 10px yellowgreen;
+	border-radius: 15px;
+	transition: all 0.2s;
+	text-align: justify;
+
+}
+.op{
+	width: 42%;
+	height: 120px;
+	box-shadow: 6px 6px 10px 10px yellowgreen;
+	border-radius: 15px;
+	float: right;
+	transition: all 0.2s;
+	text-align: center;
+}
+.var,.op{
+	display: inline-flex;
+	text-align: justify;
+}
+.var:hover{
+	background-color: cornflowerblue;
+	color: #000;
+	transform: scale(1.05);
+}
+.op:hover{
+	background-color: crimson;
+	color: #000;
+	transform: scale(1.05);
+}
+.html{
+	width: 100%;
+	height: 300px;
+	margin: 20px;
+	display: flex;
+	padding: 20px;
+}
+.css{
+	width: 31%;
+	height: 250px;
+	box-shadow: 2px 3px 3px 3px yellowgreen;
+	border-radius: 8px;
+	text-align: center;
+	top: 0px;
+	transition: all 0.2s;
+}
+.cc{
+	width: 31%;
+	height: 250px;
+	box-shadow: 2px 3px 3px 3px yellowgreen;
+	border-radius: 8px;
+	text-align: center;
+	padding-right: 5px;
+	transition: all 0.2s;
+}
+.cpp{
+	width: 31%;
+	height: 250px;
+	box-shadow: 2px 3px 3px 3px yellowgreen;
+	border-radius: 8px;
+	text-align: center;
+	padding-right: 10px;
+	transition: all 0.2s;
+}
+.css:hover{
+	/*width: 482px;*/
+	height: 258px;
+	background-color: darkslategrey;
+	color: #fff;
+	transform: scale(0.9);
+}
+.cc:hover{
+	/*width: 482px;*/
+	height: 258px;
+	background-color: darkturquoise;
+	color: #fff;
+	transform: scale(0.9);
+}
+.cpp:hover{
+	/*width: 482px;*/
+	height: 258px;
+	background-color: darkolivegreen;
+	color: #fff;
+	transform: scale(0.9);
+	
+}
+.aa{
+	width: 100%;
+	height: 300px;
+	margin: 20px;
+	display: flex;
+	padding: 20px;
+	position: justify;
+}
+.a1{
+	width: 23%;
+	height: 340px;
+	/*background-image: url(C:/Users/ARNAB/Downloads/Coursera-New-Banner.png);*/
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-clip: content-box;
+	box-shadow: 2px 3px 3px 3px yellowgreen;
+	border-radius: 20px;
+	background-attachment: local;
+	text-align: bottom;
+	margin-top: auto;
+	
+}
+.a1 img{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.a2{
+	width: 23%;
+	height: 340px;
+	/*background-image: url(C:/Users/ARNAB/Downloads/Coursera-New-Banner.png);*/
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: top;
+	box-shadow: 2px 3px 3px 3px yellowgreen;
+	border-radius: 20px;
+	text-align: center;
+	padding-right: 5px;
+	top: 0;
+	transition:all 0.5s;
+}
+.a2 img{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.a3{
+	width: 23%;
+	height: 340px;
+	/*background-image: url(C:/Users/ARNAB/Downloads/Coursera-New-Banner.png);*/
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: top;
+	box-shadow: 2px 3px 3px 3px yellowgreen;
+	border-radius: 20px;
+	text-align: center;
+	padding-right: 10px;
+	transition: all 0.5s;
+}
+.a3 img{
+	width: 67%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.a4{
+	width: 23%;
+	height: 340px;
+	/*background-image: url(C:/Users/ARNAB/Downloads/Coursera-New-Banner.png);*/
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: top;
+	box-shadow: 2px 3px 3px 3px yellowgreen;
+	border-radius: 20px;
+	text-align: center;
+	padding-right: 10px;
+	transition: all 0.5s;
+}
+.a4 img{
+	width: 67%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.a1:hover{
+	background-color: darkturquoise;
+	color: #fff;
+	transform: scale(0.9);
+}
+.a2:hover{
+	background-color: darkolivegreen;
+	color: #fff;
+	transform: scale(0.9);
+}
+.a3:hover{
+	background-color: dodgerblue;
+	color: #fff;
+	transform: scale(0.9);
+}
+.a4:hover{
+	background-color: orangered;
+	color: #fff;
+	transform: scale(0.9);
+}
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(50, 100, 50, 0.5);
+	border-radius: 20px;
+}
+.roy{
+	width: 50%;
+	height:250px;
+	border-radius: 200px;
+	background-position: center;
+}
+.com{
+	width: 33%;
+	height: 300px;
+	background-color:rgba(50, 0, 100, 1.0);
+	float: right;
+}
+.b1{
+	width: 200px;
+	height: 300px;
+	background-color: rgba(100, 0, 100, 0.5);
+	border-radius: 20px;
+}
+.c1{
+	width: auto;
+	height: 300px;
+	background-color:whitesmoke;
+	padding-right: 20px;
+}
+.com,.b1{
+	display: flex;
+}
+.footer,.c1{
+	display: flex;
+}
+.i,.j,.k{
+	width: 165px;
+	height: 160px;
+	border-radius: 50px;
+	box-shadow: 2px 2px 3px 3px grey;
+	transition: all 0.2s;
+}
+.i:hover{
+	background-color: none;
+	color: #fff;
+	transform: scale(0.9);
+}
+.j:hover{
+	background-color: none;
+	color: #fff;
+	transform: scale(0.9);
+}
+.k:hover{
+	background-color: none;
+	color: #fff;
+	transform: scale(0.9);
+}
+.nav{
+	position:;
+	top:none;
+}
+@media screen and (min-width: 900px;
+
+	.nav,.viewfort{
+		top: -700px;
+	}
+}
+@media screen and (min-width: 900px;
+
+	.web{
+		top: -700px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
